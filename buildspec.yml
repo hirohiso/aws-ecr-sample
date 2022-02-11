@@ -7,6 +7,6 @@ phases:
     commands:
       - ./gradlew check
       - ./gradlew bootJar
-  artifacts:
-    files:
-      - build/libs/aws_ecr_sample-0.0.1-SNAPSHOT.jar
+artifacts:
+  files:
+    - build/libs/aws_ecr_sample-0.0.1-SNAPSHOT.jar
